@@ -1,0 +1,498 @@
+*
+body{
+
+}
+.navbar{
+    background: transparent;
+}
+.carousel-item{
+    max-height: 620px;
+}
+
+{
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav li a
+{
+    float: right;
+    color: black!important;
+}
+.navbar-brand img
+{
+    width: 50px;
+    margin-left: 10px;
+}
+.navbar-toggler
+{
+    border: none!important;
+    outline: none !important;
+}
+nav .fa-bars
+{
+    color: blue;
+    font-size: 26px;
+}
+.d-flex
+{
+    
+    margin-left: 200px;
+    float: right;
+    background-color:blue;
+}
+/*------------Welcome Text------------*/
+.welcome
+{
+    padding: 50px 100px;
+    margin-top: -140px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.welcome h1
+{
+    color: #333;
+}
+.welcome .home-btn
+{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #031f7e;
+}
+.welcome .btn:focus
+{
+    box-shadow:none;
+}
+
+/*-----------About us-----------------*/
+#about
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6
+{
+    padding-top: 20px 10px;
+}
+#about h3
+{
+    margin: 20px auto;
+}
+
+
+/*--------------services------------------*/
+#services
+{
+    background-color: #efefef;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#services .col-md-4
+{
+    padding: 20px;
+}
+#services .col-md-4 h4
+{
+    padding: 5px;
+}
+#services .col-md-4 img
+{
+    width: 200px;
+}
+#services .col-md-4 p
+{
+    padding: 5px;
+    text-align: justify;
+}
+/*----------features--------------*/
+#features
+{
+    padding-top: 50px;
+    padding-bottom: 100;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/features-backgroung.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#features .col-md-6
+{
+    padding: 20px;
+}
+.feature-box
+{
+    height: 120px;
+}
+.feature-box .feature-left
+{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feature-box .feature-left .fa
+{
+    padding-top: 13px;
+    font-size: 50px;
+}
+.feature-box .feature-right
+{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.feature-box .feature-left h4
+{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+.feature-box .feature-left p
+{
+    padding-left: 50px;
+    text-align: left;
+}
+/*----------Testimonials-----------------*/
+#Testimonials
+{
+    padding: 100px;
+    padding-bottom: 100px;
+}
+#Testimonials .col-md-4
+{
+    padding: 60px 80px;
+}
+#Testimonials img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+.review
+{
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+.review .fa-twitter
+{
+    color: #031f7e;
+}
+#Testimonials span
+{
+    color: #031f7e;
+    font-weight: 600;
+    font-size: 18px;
+}
+#testimonilas h1
+{
+    margin-bottom: 20px;
+    color: #031f7e;
+}
+#testimonilas p
+{
+    padding-bottom: 20px;
+}
+#testimonilas .col-md-4 .midddle
+{
+    padding: 40px 80px;
+}
+/*-------Suscribe---------*/
+.Suscribe
+{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.Suscribe h2, .Suscribe p
+{
+    color: #fff;
+}
+
+.Suscribe .input-group
+{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.Suscribe .form-control
+{
+    bottom: none;
+    background: transparent;    
+}
+.Suscribe .form-control:focus
+{
+    box-shadow: none;
+    background: transparent;    
+}
+.Suscribe .input-group-append
+{
+    background-image: linear-gradient(to right, #1c03b5,#5c8bef);
+    border-radius: 30px;   
+}
+.Suscribe .input-group-text
+{
+    background: transparent;
+    border: snone; 
+    color: #fff;
+
+}
+.Suscribe .btn:focus
+{
+    box-shadow: none;
+}
+
+/*------------footer----------------*/
+
+#footer
+{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+.footer-logo
+{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer h1
+{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p
+{
+    font-size: 12px;
+    text-align: left;
+}
+#footer .city
+{
+    margin-left: 37px;
+}
+#footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer hr
+{
+   margin-top: 10px;
+}
+#footer .fa-heart-o
+{
+   color: red;
+   font-size: 17px;
+}
+#footer .copyright
+{
+   margin-bottom: -0px;
+   text-align: center;
+   font-size: 15px;
+}
+
+/* ------contact us------ */
+
+ .Contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(pexels-philip-ackermann-878151.jpg);
+    background-size: cover;
+}
+
+.contant .contant
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contant .contant h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contant .contant p
+{
+    font-weight: 300;
+    color: #fff;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon
+{
+min-width: 60px;
+height: 60px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 22px;
+}
+.container .contactinfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactinfo .box .text .h3
+{
+    font-weight: 500;
+    color: #00bcd4; 
+}
+.contactform
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactform .h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputBox input,
+.contactform .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transform: 0.5s;
+    color: #666;
+}
+.contactform .inputBox input:focus~ span,
+.contactform .inputBox input:valid~ span,
+.contactform .textarea input:focus~ span,
+.contactform .textarea input:valid~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px)
+{
+    .Contact
+    {
+        padding: 50px;
+    }
+    .container
+    {
+        flex-direction: column;
+    }
+    .container .contactinfo
+    {
+        margin-bottom: 40px;
+    }
+    .container .contactinfo,
+    .contactform
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
